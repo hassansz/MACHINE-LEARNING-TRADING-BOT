@@ -4,7 +4,7 @@ from lumibot.strategies.strategy import Strategy
 from lumibot.traders import Trader
 from datetime import datetime 
 from alpaca_trade_api import REST 
-from timedelta import Timedelta 
+from datetime import timedelta
 from finbert_utils import estimate_sentiment
 
 API_KEY = "YOUR API KEY" 
